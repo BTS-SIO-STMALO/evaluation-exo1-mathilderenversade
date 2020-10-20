@@ -17,3 +17,27 @@ section {
     margin: auto;
 }
 
+/* Solution pour répartir le contenu de manière équivalente dans le conteneur en utilisant les flexbox */
+
+#aToiDeJouer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Autre solution proposée par Fabrice qui fonctionne 
+#aToiDeJouer {
+    column-count: 2;
+}
+
+p {
+    display: inline-block;
+}*
+*/
+
+#aToiDeJouer p {
+    margin : 20px 0;
+}
+
+#aToiDeJouer div {
+    width: 500px;
+}
